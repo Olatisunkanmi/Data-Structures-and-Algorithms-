@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-and-algorithms-",
+  "version": "1.0.0",
+  "description": "This repository covers",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olatisunkanmi/Data-Structures-and-Algorithms-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olatisunkanmi/Data-Structures-and-Algorithms-/issues"
+  },
+  "homepage": "https://github.com/Olatisunkanmi/Data-Structures-and-Algorithms-#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
