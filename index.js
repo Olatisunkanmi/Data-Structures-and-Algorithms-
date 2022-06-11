@@ -14,7 +14,7 @@
  * ~the readabilty of your code does not factor at all PERFORMANCE is KING
  *              ^like  in soccer 3pt is more important than dribbles
  * 
- *  ! why is time measurements not good .
+ *  ! why is  time measurements not good .
  * 
  * *computers differ widely in  their processors, so you will often get diffrent times for each comp. ??
 * *hence the time complexity of the code will not be safe to determine.
@@ -35,21 +35,55 @@
 
     // !example 1
 
-   const sumUp1 = n => {
-    return (n * (n + 1) ) / 2 ;
-   } 
+    const sumUp1 =  ( n )=> {
+        return  (n * (n + 1 )  )    /2 ;
+      } 
+
+
 
 const sumUp2 = n => {
     let total  = 0;
 
     for (let i = 1;  i <= n; i++){
-        total += 1 ;
+        total += i ;
+        // !                this will show you how total itenerate everytime the for loop runs so if the for loop runs 200 times, total will itenerate 200 times also
+        
+        // console.log(total)
     }
-    return total ;
+        return total;
 }
+
+
+let t1, t2;
+
+                        
+t1 = Date.now()
+                // !            run function
+// console.log(sumUp1(300000000))
+t2 = Date.now()
+                                //!         Calculate time function uses to run 
+// console.log(`${(t2-t1) /1000  } Msecs First Fn` )
+
+
+t1 = Date.now()
+                //!                 run function
+// console.log(sumUp2(300000000))
+t2 = Date.now()
+                             //!         Calculate time function uses to run 
+// console.log(`${(t2-t1) /1000  } Msecond Fn` )
+
+
+
 
 // ^in the above we have two diffrent functions 
 /**
  * ^ sumUp1 has 3 opretaion 
- * ^ sumup2 has 
+ * 
+ * ^however sumUp2 has a for loop which has 1 operation
+ *             *"total += 1"
+ *      
+ * !!Breakdown
+ *          ~when both codes are run, sumUp1 runs faster than sumUp2 this is because the only operation \"total +=1 "is dependent on the for loop and in return the for loop will run for 'n' times, 'n' being our input.  
+ * ^if n is 20, the for loop runs for 20 times and 
+ *      
  */

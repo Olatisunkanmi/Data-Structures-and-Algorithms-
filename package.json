@@ -4,7 +4,7 @@
   "description": "This repository covers",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/Olatisunkanmi/Data-Structures-and-Algorithms-/issues"
   },
-  "homepage": "https://github.com/Olatisunkanmi/Data-Structures-and-Algorithms-#readme",
-  "dependencies": {
-    "nodemon": "^2.0.16"
-  }
+  "homepage": "https://github.com/Olatisunkanmi/Data-Structures-and-Algorithms-#readme"
 }
