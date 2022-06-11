@@ -6,9 +6,11 @@
      * ? this means that if you run your code on diffrent computers with diff. processors it does not change the amount of operations in your code.
      * **/
 
-    // !example 1
+<!--      !example 1 -->
 
-    const sumUp1 =  ( n )=> {
+   
+  
+  const sumUp1 =  ( n )=> {
         return  (n * (n + 1 )  )    /2 ;
       } 
 
@@ -16,26 +18,22 @@
 
 const sumUp2 = n => {
     let total  = 0;
-
-    for (let i = 1;  i <= n; i++){
-        total += i ;
-        // !                this will show you how total itenerate everytime the for loop runs so if the for loop runs 200 times, total will itenerate 200 times also
-        
-        // console.log(total)
+for (let i = 1;  i <= n; i++){ total += i ;
+<!--  this will show you how total itenerate everytime the for loop runs so if the for loop runs 200 times, total will itenerate 200 times also -->
+<!--        console.log(total) -->
     }
-        return total;
-}
+    return total;  }
 
 
 let t1, t2;
 
                         
 t1 = Date.now()
-                // !            run function
-// console.log(sumUp1(300000000))
+<!--                           run function -->
+<!-- console.log(sumUp1(300000000)) -->
 t2 = Date.now()
-                                //!         Calculate time function uses to run 
-// console.log(`${(t2-t1) /1000  } Msecs First Fn` )
+<!--                                 Calculate time function uses to run  -->
+<!-- console.log(`${(t2-t1) /1000  } Msecs First Fn` ) -->
 
 
 t1 = Date.now()
