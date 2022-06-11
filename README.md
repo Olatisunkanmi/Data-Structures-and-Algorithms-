@@ -13,7 +13,7 @@ This repository covers
 
 
 
-/**
+
  *  !why is Big O notation important
  *      !also Known as Time Complexities 
  * 
@@ -37,4 +37,4 @@ This repository covers
 ** what if Microsoft does same mistake ? see!! it would cost them alot.
 
 *?let's write some code!
- * */
+ 
