@@ -10,3 +10,8 @@ This repository covers
 -Array methods 
 -Objects Methods
 -Faster Code Writing and All Problem solving skills needed for Solving Life Problems 
+
+
+    -Big O Notation
+*?let's write some code!
+ 
