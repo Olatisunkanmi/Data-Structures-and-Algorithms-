@@ -25,7 +25,7 @@ const fn2 = (n) => {
         for(let i = 0; i < 4; i++)
         console.log("Hello from fn2 ")
 }
-
+    // !    Run function 
 // fn2(n)
 
 /*
