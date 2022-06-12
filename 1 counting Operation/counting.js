@@ -26,7 +26,7 @@ const sumUp2 = n => {
         return total;
 }
 
-
+ 
 let t1, t2;
 
                         
@@ -57,6 +57,22 @@ t2 = Date.now()
  *      
  * !!Breakdown
  *          ~when both codes are run, sumUp1 runs faster than sumUp2 this is because the only operation \"total +=1 "is dependent on the for loop and in return the for loop will run for 'n' times, 'n' being our input.  
- * ^if n is 20, the for loop runs for 20 times and 
+* ^if n is 20, the for loop runs for 20 times hence total run for another 20 times.
  *      
+ * 
+ * 
+ *          ? Big O implementaion
+ * 
+ * ~The first Fn sumUp1 is 
+ * ~0(n) this is because no matter how large n is our funtions runs only three times
+ *   ~ Hence -- Big O notation is 0(3)
+
+ * 
+ * ~2nd Fn sumUp2 is 
+ * ~1 * N
+ * ~ 1 which is (total += 1)  is dependent on the number of times N runs
+ *  ~ Hence -- Big O notation is 0(n)
+ * ~  if the number of operations in this funtion is 3 and not 1 like in our funtion
+ * ~the big O notation of this function would be 
+ * ~                                0(3 * n)
  */
