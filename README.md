@@ -27,7 +27,7 @@ this means faster time to finish to use less memory (RAM), although there is a m
  ~the readabilty of your code does not factor at all PERFORMANCE is KING
               ^like  in soccer 3pt is more important than dribbles
  
-  ! why is time measurements not good .
+  ! why is Hard time measurements not good ?
  
 computers differ widely in  their processors, so you will often get diffrent times for each comp. ??
 hence the time complexity of the code will not be safe to determine.
