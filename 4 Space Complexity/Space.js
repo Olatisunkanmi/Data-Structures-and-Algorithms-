@@ -18,4 +18,9 @@
  * ~ Strings, Arrays and Objects takes up 0(n)/ Linear space 
  *          ~ An array w/ 4 elements takes up twice the memory of an Array w/ 2 elements 
  * 
+ * 
+ * ~ why is Time Complexity prioritized Over space complexity ?
+ * ^        The cost to produce and run processors are much higher compared to RAM
+ * 
+ * ^      Users in general care more about speed than Ram Usage
  */
