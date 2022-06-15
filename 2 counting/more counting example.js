@@ -58,7 +58,7 @@ const  fn3 = (arr)  => {
  * ^hence, 3 ^ 2 is 9
  **/
 
-const fn4 = n => {
+const fn4 = (arr1, arr2) => {
         for(let i = 0; i < arr1.length ; i ++){
                     for(let i =0; i < arr2.length ; i ++){
 
@@ -66,5 +66,9 @@ const fn4 = n => {
         }      
 }
 const arr1 =  ['pet', 'animals', 'Cars']
-const arr2 = ['Dance', 'sing', 'clap']
-fn4()
+const arr2 = ['Dance', 'sing', 'clap' ]
+fn4( arr1, arr2) 
+
+/**
+ * ^Unlike our previous examples, the function fn4() is diff. our foor loops are also nested but they are not looping through the same array. hence is the big O is 0( n * m) where m is the length of the nested loop. 
+ *  */ 
