@@ -1,10 +1,7 @@
 
 
-const uSrch = 2
-
+const uSrch = 100
 const SrchArr = [1, 2, 3, 5, 6, 7, 84 ,8, 90, 100, 99, 45, 4];
-
-
 
 const Guess = () => {
 
@@ -22,13 +19,32 @@ Guess()
 
 const Gues = () => {
     let low = 0;
-    let high = SrchArr.length -  1
-
+    const guess = 99;
+    let high = SrchArr.length -  1;
     let md = Math.round((low + high ) / 2);
-    let guess = SrchArr[md]
+    let item = SrchArr[md];
 
-    console.log(guess)
+
+        while (low <= high ) {
+        
+                    if (guess === item ){
+                            console.log('found')
+                            
+                        } else if (guess > item ){
+                            high =  md - 1 
+                            console.log('High is changed')
+
+                        } else if (guess < item) {
+                            low = md + 1 
+                            console.log('low 🔺')
+                     
+                        }       else{
+                            console.log('not found ')
+                        }
+
+     
+
+        }
 }
-
 
 Gues()
