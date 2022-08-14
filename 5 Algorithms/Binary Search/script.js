@@ -4,7 +4,7 @@ const arr = [
 	20,
 ];
 
-const Search = (arr, item) => {
+const SimpleSearch = (arr, item) => {
 	for (let i = 0; i < arr.length; i++) {
 		if (item == arr[i]) {
 			return arr[i];
@@ -13,10 +13,10 @@ const Search = (arr, item) => {
 	return null;
 };
 
-Guess(arr, item);
+SimpleSearch(arr, item);
 
 //^ The Big O Notation of this search Algorithm is O(n) which is linear time
-const Search = (arr, item) => {
+const BinarySearch = (arr, item) => {
 	let low = 0;
 	let high = arr.length - 1;
 
