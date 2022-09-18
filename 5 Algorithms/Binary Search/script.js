@@ -36,4 +36,4 @@ const BinarySearch = (arr, item) => {
 	return null;
 };
 
-BinarySearch(arr, item);
+// BinarySearch(arr, item);
