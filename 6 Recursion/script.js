@@ -1,5 +1,7 @@
-const Arr = [1, 2, 3, 4, 5, 6, 7, 8, , 9, 34, 43, 56, 76, 233, 545];
-
+const Arr = [
+	1, 2, 3, 4, 5, 6, 7, 8, 84, 54, 75, 9, 34, 43, 56, 76, 233, 545,
+];
+let i = 0;
 const factorial = (x) => {
 	console.log(xs);
 	if (x === 0) {
@@ -52,3 +54,19 @@ const countArr = (arr) => {
 	// return count + countArr(arr);
 };
 // console.log(countArr(Arr));
+
+//  ^ For loop recursion
+
+function loop(arr) {
+	// console.log(i);
+	if (i > arr.length) {
+		return 0;
+	} else {
+		console.log(arr[i]);
+		i++;
+		loop(arr);
+	}
+	return i;
+}
+
+loop(Arr);
