@@ -51,22 +51,22 @@ const countArr = (arr) => {
 	if (arr.length == 0) {
 		return 0;
 	}
-	// return count + countArr(arr);
+	return count + countArr(arr);
 };
 // console.log(countArr(Arr));
 
 //  ^ For loop recursion
 
 function loop(arr) {
-	// console.log(i);
-	if (i > arr.length) {
-		return 0;
+	let k = 0;
+	if (k < arr.length) {
+		console.log(arr[k]);
+		k++;
+		return k;
 	} else {
-		console.log(arr[i]);
-		i++;
-		loop(arr);
+		return 0;
 	}
-	return i;
+	return loop(arr);
 }
 
 loop(Arr);
