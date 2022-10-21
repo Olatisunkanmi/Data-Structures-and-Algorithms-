@@ -54,19 +54,3 @@ const countArr = (arr) => {
 	return count + countArr(arr);
 };
 // console.log(countArr(Arr));
-
-//  ^ For loop recursion
-
-function loop(arr) {
-	let k = 0;
-	if (k < arr.length) {
-		console.log(arr[k]);
-		k++;
-		return k;
-	} else {
-		return 0;
-	}
-	return loop(arr);
-}
-
-loop(Arr);
